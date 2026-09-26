@@ -8,7 +8,7 @@ function calculateTax (amount) {
 
 // 2.convert to uppercase 
 
-function convertToUppercase (text) {
+function convertToUpperCase (text) {
     return text.toUppercase();
 
 }
@@ -37,4 +37,10 @@ function calculateDiscountedPrice(originalPrice, discountPercentage){
 }
 
 // This is required for the test to function properly  
-module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };
+module.exports = { 
+  calculateTax, 
+  convertToUpperCase, 
+  findMaximum, 
+  isPalindrome, 
+  calculateDiscountedPrice 
+};
